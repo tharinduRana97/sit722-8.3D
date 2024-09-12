@@ -23,7 +23,6 @@ const DBHOST = process.env.DBHOST;
 const DBNAME = process.env.DBNAME;
 const RABBIT = process.env.RABBIT;
 
-//
 // Application entry point.
 //
 async function main() {
