@@ -15,7 +15,6 @@ const app = express();
 
 
 // HTTP GET route that streams a video from storage.
-//
 app.get("/video", (req, res) => {
 
     const videoId = req.query.id;
