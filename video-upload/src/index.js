@@ -14,7 +14,6 @@ if (!process.env.RABBIT) {
 const PORT = process.env.PORT;
 const RABBIT = process.env.RABBIT;
 
-//
 // Application entry point.
 //
 async function main() {
