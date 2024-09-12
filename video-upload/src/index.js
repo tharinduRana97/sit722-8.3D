@@ -24,7 +24,7 @@ async function main() {
 
     const app = express();
 
-    //
+
     // Broadcasts the "video-uploaded" message.
     //
     function broadcastVideoUploadedMessage(videoMetadata) {
